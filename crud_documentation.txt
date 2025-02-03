@@ -1,0 +1,45 @@
+
+# CRUD Operations on MongoDB - Sales Data
+
+## 1.Create (Insert New Records)
+- Two new sales records were manually inserted into MongoDB.
+- Example Record:
+  {"date": "2/2/2025", "product ID": 51, "sales amount": 120, "store location": 3}
+- This allows adding future sales data dynamically.
+
+## 2.Read (Query Data from MongoDB)
+- Queried sales based on store location, product ID, and date.
+- Example Queries:
+  - Find all sales from store location 3.
+  - Find all sales for product ID 51.
+  - Find all sales on "1/1/2013".
+- This enables analysis of sales trends and key performance metrics.
+
+## 3. Update (Modify Records)
+- Sales amount for Product ID 51 on "2/2/2025" was updated from 120 to 500.
+- Example Query:
+  sales_collection.update_one(
+      {"date": "2/2/2025", "product ID": 51},
+      {"$set": {"sales amount": 500}}
+  )
+
+- Updating records ensures accuracy and up-to-date financial reporting.
+
+## 4.Delete (Remove Outdated Records)
+- All sales records before "1/1/2015" were deleted to maintain database efficiency.
+- Example Query:
+  sales_collection.delete_many({"date": {"$lt": "1/1/2015"}})
+
+- Removing old records optimizes storage and speeds up queries.
+
+## Why CRUD Operations Are Important
+CRUD (Create, Read, Update, Delete) operations ensure efficient database management:
+- **Create** → Adds new sales data dynamically.
+- **Read** → Retrieves key sales insights (best-selling stores, products).
+- **Update** → Corrects incorrect data and updates transactions.
+- **Delete** → Removes outdated or unnecessary data.
+
+## Finally
+- **Sales data is stored in MongoDB** and dynamically updated.
+- **Dash visualization displays real-time sales data** after CRUD operations.
+- **The project successfully integrates a NoSQL database with interactive dashboards.**
