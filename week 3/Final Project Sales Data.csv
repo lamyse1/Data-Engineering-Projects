@@ -1,0 +1,30 @@
+_id,date,product_id,sales_amount,store_location,Temperature (°C),Humidity (%),Weather Description
+67a7c63b926f49613ae26a14,2/5/2025,P001,150,New York,1.02,45,overcast clouds
+67a7c63b926f49613ae26a15,2/5/2025,P002,300,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a16,2/5/2025,P003,450,Chicago,-1.08,85,overcast clouds
+67a7c63b926f49613ae26a17,2/5/2025,P004,600,Houston,28.99,65,broken clouds
+67a7c63b926f49613ae26a18,2/5/2025,P005,750,Seattle,3.85,88,broken clouds
+67a7c63b926f49613ae26a19,2/5/2025,P001,900,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a1a,2/5/2025,P002,950,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a1b,2/6/2025,P001,150,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a1c,2/6/2025,P002,300,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a1d,2/6/2025,P003,450,Chicago,-1.08,85,overcast clouds
+67a7c63b926f49613ae26a1e,2/6/2025,P004,600,Houston,28.99,65,broken clouds
+67a7c63b926f49613ae26a1f,2/6/2025,P005,750,Seattle,3.85,88,broken clouds
+67a7c63b926f49613ae26a20,2/6/2025,P001,900,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a21,2/6/2025,P002,950,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a22,2/7/2025,P001,150,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a23,2/7/2025,P002,300,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a24,2/7/2025,P003,450,Chicago,-1.08,85,overcast clouds
+67a7c63b926f49613ae26a25,2/7/2025,P004,600,Houston,28.99,65,broken clouds
+67a7c63b926f49613ae26a26,2/7/2025,P005,750,Seattle,3.85,88,broken clouds
+67a7c63b926f49613ae26a27,2/7/2025,P001,900,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a28,2/7/2025,P002,950,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a29,2/8/2025,P001,150,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a2a,2/8/2025,P002,300,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a2b,2/8/2025,P003,450,Chicago,-1.08,85,overcast clouds
+67a7c63b926f49613ae26a2c,2/8/2025,P004,600,Houston,28.99,65,broken clouds
+67a7c63b926f49613ae26a2d,2/8/2025,P005,750,Seattle,3.85,88,broken clouds
+67a7c63b926f49613ae26a2e,2/8/2025,P001,900,New York,0.99,45,overcast clouds
+67a7c63b926f49613ae26a2f,2/8/2025,P002,950,Los Angeles,17.29,68,clear sky
+67a7c63b926f49613ae26a30,2/9/2025,P001,150,New York,0.99,45,overcast clouds
